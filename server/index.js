@@ -37,6 +37,17 @@ app.use(cors({
 }));
 app.use(express.json());
 
+// Debugging Middleware
+app.use((req, res, next) => {
+    console.log(`Incoming request from origin: ${req.headers.origin}`);
+    next();
+});
+
+// Root Route for Health Check
+app.get('/', (req, res) => {
+    res.send('Server is running!');
+});
+
 // Nodemailer Transporter
 const transporter = nodemailer.createTransport({
     service: 'gmail',

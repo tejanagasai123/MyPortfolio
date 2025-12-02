@@ -20,6 +20,7 @@ const Contact = () => {
 
         try {
             const backendUrl = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
+            console.log('Backend URL:', backendUrl); // Debugging log
             const response = await fetch(`${backendUrl}/api/contact`, {
                 method: 'POST',
                 headers: {
