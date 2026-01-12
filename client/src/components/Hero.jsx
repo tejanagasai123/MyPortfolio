@@ -32,12 +32,6 @@ const Hero = () => {
                         >
                             Got a project?
                         </a>
-                        <a
-                            href="#"
-                            className="px-8 py-3 border border-gray-600 text-white font-semibold rounded-full hover:border-primary hover:text-primary transition-all duration-300"
-                        >
-                            My resume
-                        </a>
                     </div>
                 </div>
 
