@@ -15,8 +15,8 @@ const Projects = () => {
             title: 'Student In-Out System',
             description: 'CRUD-based web application to manage student in-out records. Used React.js with JSON Server as a mock backend, Axios for HTTP requests, and React Router for navigation.',
             tech: ['React.js', 'JSON Server', 'Axios', 'React Router'],
-            link: '#',
-            github: '#',
+            link: 'https://github.com/tejanagasai123/CRUD-application-in-REACT-using-json-server',
+            github: 'https://github.com/tejanagasai123/CRUD-application-in-REACT-using-json-server',
         },
         {
             id: 3,
@@ -25,6 +25,14 @@ const Projects = () => {
             tech: ['Angular', 'TailwindCSS', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'Multer'],
             link: '#',
             github: '#',
+        },
+        {
+            id: 4,
+            title: 'Subscription Tracker API',
+            description: 'A full-stack MEAN Document Management System featuring secure authentication, document upload, tagging, version control, and role-based access management. Built with Angular for a modern UI and Node.js + MongoDB for scalable backend operations.',
+            tech: [ 'Node.js', 'Express.js', 'MongoDB', 'JWT','Arcjet','upstash'],
+            link: '#',
+            github: 'https://github.com/tejanagasai123/subscription-tracker',
         },
     ];
 
